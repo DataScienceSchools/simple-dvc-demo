@@ -39,3 +39,10 @@ touch src/get_data.py
 write content get_data.py
 
 python src/get_data.py
+
+git add . && git commit -m "get data"
+
+touch src/load_data.py
+write content load_data.py
+python src/load_data.py 
+git add . && git commit -m "load data"
