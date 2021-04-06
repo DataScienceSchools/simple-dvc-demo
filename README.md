@@ -46,3 +46,6 @@ touch src/load_data.py
 write content load_data.py
 python src/load_data.py 
 git add . && git commit -m "load data"
+
+write content dvc.yaml 
+dvc repro
