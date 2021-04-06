@@ -1,0 +1,7 @@
+action: .package, msg: getenv
+cwd: /home/bahar/Desktop/mlops/demo/new/simple_app/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 .package
+created virtual environment CPython3.8.5.final.0-64 in 965ms
+  creator CPython3Posix(dest=/home/bahar/Desktop/mlops/demo/new/simple_app/.tox/.package, clear=False, global=False)
+  seeder FromAppData(download=False, idna=latest, contextlib2=latest, pip=latest, urllib3=latest, packaging=latest, lockfile=latest, retrying=latest, certifi=latest, ipaddr=latest, colorama=latest, pkg_resources=latest, wheel=latest, html5lib=latest, msgpack=latest, CacheControl=latest, setuptools=latest, distlib=latest, chardet=latest, requests=latest, pytoml=latest, pep517=latest, progress=latest, six=latest, pyparsing=latest, webencodings=latest, distro=latest, appdirs=latest, via=copy, app_data_dir=/home/bahar/.local/share/virtualenv/seed-app-data/v1.0.1.debian)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

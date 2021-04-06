@@ -1,0 +1,24 @@
+action: py37, msg: installpkg
+cwd: /home/bahar/Desktop/mlops/demo/new/simple_app
+cmd: /home/bahar/Desktop/mlops/demo/new/simple_app/.tox/py37/bin/python -m pip install --exists-action w .tox/.tmp/package/1/src-0.0.1.tar.gz
+Processing ./.tox/.tmp/package/1/src-0.0.1.tar.gz
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Building wheels for collected packages: src
+  Building wheel for src (PEP 517): started
+  Building wheel for src (PEP 517): finished with status 'done'
+  Created wheel for src: filename=src-0.0.1-py3-none-any.whl size=4214 sha256=a02b1dbec8198f11cdd6a21fbd70a9f76d84c4e14b6b725ac371bafa617fb831
+  Stored in directory: /home/bahar/.cache/pip/wheels/2e/84/f9/f4163a51e1d6f1f23542db8b7381585ca7e52a92ede90369c2
+Successfully built src
+Installing collected packages: src
+  Attempting uninstall: src
+    Found existing installation: src 0.0.1
+    Uninstalling src-0.0.1:
+      Successfully uninstalled src-0.0.1
+Successfully installed src-0.0.1

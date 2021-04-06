@@ -1,0 +1,8 @@
+action: .package, msg: getenv
+cwd: /home/bahar/Desktop/mlops/demo/new/simple_app
+cmd: /home/bahar/Desktop/mlops/demo/new/simple_app/.tox/.package/bin/python -m pip install 'setuptools >= 35.0.2' 'setuptools_scm >= 2.0.0, <3'
+Requirement already satisfied: setuptools>=35.0.2 in ./.tox/.package/lib/python3.8/site-packages (44.0.0)
+Collecting setuptools_scm<3,>=2.0.0
+  Using cached setuptools_scm-2.1.0-py2.py3-none-any.whl (20 kB)
+Installing collected packages: setuptools-scm
+Successfully installed setuptools-scm-2.1.0

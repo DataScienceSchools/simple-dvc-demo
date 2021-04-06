@@ -1,0 +1,5 @@
+action: py27, msg: getenv
+cwd: /home/bahar/Desktop/mlops/demo/new/simple_app
+cmd: /home/bahar/Desktop/mlops/demo/new/simple_app/.tox/py27/bin/python -m pip install -rrequirements.txt -cconstraints.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+ERROR: Could not open requirements file: [Errno 2] No such file or directory: 'constraints.txt'

@@ -74,3 +74,27 @@ git add . && git commit -m "train and evaluate" && git push origin main
 write content dvc.yaml "train_and_evaluate.py"
 dvc repro
 git add . && git commit -m "third stage train_and_evaluate.py" && git push origin main
+
+dvc params diff
+dvc metrics show
+
+touch tox.ini
+content of tox.ini
+
+pytest -v
+
+mkdir tests
+touch tests/conftest.py 
+touch tests/test_config.py
+touch tests/__init__.py
+
+contet of test_config.py
+pytest -v
+
+touch setup.py
+content setup.py
+pip install tox
+tox
+
+python setup.py sdist bdist_wheel
+git add . && git commit -m "setup done" && git push origin main

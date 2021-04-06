@@ -1,0 +1,197 @@
+action: py37, msg: getenv
+cwd: /home/bahar/Desktop/mlops/demo/new/simple_app
+cmd: /home/bahar/Desktop/mlops/demo/new/simple_app/.tox/py37/bin/python -m pip install -rrequirements.txt
+Obtaining file:///home/bahar/Desktop/mlops/demo/new/simple_app (from -r requirements.txt (line 2))
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Collecting dvc
+  Using cached dvc-2.0.17-py2.py3-none-any.whl (629 kB)
+Processing /home/bahar/.cache/pip/wheels/46/ef/c3/157e41f5ee1372d1be90b09f74f82b10e391eaacca8f22d33e/sklearn-0.0-py2.py3-none-any.whl
+Collecting pandas
+  Using cached pandas-1.2.3-cp37-cp37m-manylinux1_x86_64.whl (9.9 MB)
+Collecting pytest
+  Using cached pytest-6.2.3-py3-none-any.whl (280 kB)
+Collecting tox
+  Using cached tox-3.23.0-py2.py3-none-any.whl (85 kB)
+Collecting flake8
+  Using cached flake8-3.9.0-py2.py3-none-any.whl (73 kB)
+Collecting flask
+  Using cached Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+Processing /home/bahar/.cache/pip/wheels/48/64/50/67e9a3524590218acb6a0c0f94038c0d60815866c52a667d57/gunicorn-20.1.0-py3-none-any.whl
+Collecting pyyaml
+  Using cached PyYAML-5.4.1-cp37-cp37m-manylinux1_x86_64.whl (636 kB)
+Collecting flatten-dict<1,>=0.3.0
+  Using cached flatten_dict-0.3.0-py2.py3-none-any.whl (8.2 kB)
+Collecting dulwich>=0.20.21
+  Using cached dulwich-0.20.21-cp37-cp37m-manylinux2010_x86_64.whl (515 kB)
+Collecting pathspec>=0.6.0
+  Using cached pathspec-0.8.1-py2.py3-none-any.whl (28 kB)
+Collecting funcy>=1.14
+  Using cached funcy-1.15-py2.py3-none-any.whl (32 kB)
+Collecting diskcache>=5.2.1
+  Using cached diskcache-5.2.1-py3-none-any.whl (44 kB)
+Requirement already satisfied: distro>=1.3.0 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (1.4.0)
+Collecting psutil>=5.8.0
+  Using cached psutil-5.8.0-cp37-cp37m-manylinux2010_x86_64.whl (296 kB)
+Collecting fsspec>=0.8.5
+  Using cached fsspec-0.9.0-py3-none-any.whl (107 kB)
+Collecting gitpython>3
+  Using cached GitPython-3.1.14-py3-none-any.whl (159 kB)
+Requirement already satisfied: packaging>=19.0 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (20.3)
+Collecting pyparsing==2.4.7
+  Using cached pyparsing-2.4.7-py2.py3-none-any.whl (67 kB)
+Requirement already satisfied: appdirs>=1.4.3 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (1.4.3)
+Collecting voluptuous>=0.11.7
+  Using cached voluptuous-0.12.1-py3-none-any.whl (29 kB)
+Collecting tqdm<5,>=4.45.0
+  Using cached tqdm-4.60.0-py2.py3-none-any.whl (75 kB)
+Processing /home/bahar/.cache/pip/wheels/ce/22/5c/bcd55db68399954d13c8d3b23192a517dd59ba3ee8648fa773/pygtrie-2.3.2-py3-none-any.whl
+Processing /home/bahar/.cache/pip/wheels/49/68/a0/8e7cb7bbf4990fc10b5a082aa0eb3ac66787ca11e8eca445b2/flufl.lock-3.2-py3-none-any.whl
+Collecting jsonpath-ng>=1.5.1
+  Using cached jsonpath_ng-1.5.2-py3-none-any.whl (28 kB)
+Collecting networkx>=2.1
+  Using cached networkx-2.5.1-py3-none-any.whl (1.6 MB)
+Processing /home/bahar/.cache/pip/wheels/0d/c4/19/13d74440f2a571841db6b6e0a273694327498884dafb9cf978/configobj-5.0.6-py3-none-any.whl
+Collecting ply>=3.9
+  Using cached ply-3.11-py2.py3-none-any.whl (49 kB)
+Requirement already satisfied: requests>=2.22.0 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (2.22.0)
+Collecting toml>=0.10.1
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting pygit2>=1.5.0
+  Using cached pygit2-1.5.0-cp37-cp37m-manylinux2014_x86_64.whl (3.1 MB)
+Collecting pydot>=1.2.4
+  Using cached pydot-1.4.2-py2.py3-none-any.whl (21 kB)
+Collecting pyasn1>=0.4.1
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Processing /home/bahar/.cache/pip/wheels/bc/f8/ae/bc69cb5f61393ebf9ade4cde41d1a813d35bfe78263a26f99e/dpath-2.0.1-py3-none-any.whl
+Collecting zc.lockfile>=1.2.1
+  Using cached zc.lockfile-2.0-py2.py3-none-any.whl (9.7 kB)
+Requirement already satisfied: colorama>=0.3.9 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (0.4.3)
+Collecting rich>=10.0.0
+  Using cached rich-10.1.0-py3-none-any.whl (201 kB)
+Processing /home/bahar/.cache/pip/wheels/b8/92/aa/456d462c908b4e210c3928f778d28f94049fc9e47af8b191c9/nanotime-0.5.2-py3-none-any.whl
+Collecting shortuuid>=0.5.0
+  Using cached shortuuid-1.0.1-py3-none-any.whl (7.5 kB)
+Collecting typing-extensions>=3.7.4
+  Using cached typing_extensions-3.7.4.3-py3-none-any.whl (22 kB)
+Collecting grandalf==0.6
+  Using cached grandalf-0.6-py3-none-any.whl (31 kB)
+Collecting shtab<2,>=1.3.4
+  Using cached shtab-1.3.5-py2.py3-none-any.whl (12 kB)
+Collecting ruamel.yaml>=0.16.1
+  Using cached ruamel.yaml-0.17.2-py3-none-any.whl (101 kB)
+Collecting tabulate>=0.8.7
+  Using cached tabulate-0.8.9-py3-none-any.whl (25 kB)
+Collecting dictdiffer>=0.8.1
+  Using cached dictdiffer-0.8.1-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: setuptools>=34.0.0 in ./.tox/py37/lib/python3.7/site-packages (from dvc->-r requirements.txt (line 5)) (44.0.0)
+Collecting python-benedict>=0.21.1
+  Using cached python_benedict-0.23.2-py3-none-any.whl (39 kB)
+Collecting scikit-learn
+  Using cached scikit_learn-0.24.1-cp37-cp37m-manylinux2010_x86_64.whl (22.3 MB)
+Collecting numpy>=1.16.5
+  Using cached numpy-1.20.2-cp37-cp37m-manylinux2010_x86_64.whl (15.3 MB)
+Collecting python-dateutil>=2.7.3
+  Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
+Collecting pytz>=2017.3
+  Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
+Collecting attrs>=19.2.0
+  Using cached attrs-20.3.0-py2.py3-none-any.whl (49 kB)
+Collecting py>=1.8.2
+  Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
+Collecting pluggy<1.0.0a1,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Collecting importlib-metadata>=0.12; python_version < "3.8"
+  Using cached importlib_metadata-3.10.0-py3-none-any.whl (14 kB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Using cached virtualenv-20.4.3-py2.py3-none-any.whl (7.2 MB)
+Requirement already satisfied: six>=1.14.0 in ./.tox/py37/lib/python3.7/site-packages (from tox->-r requirements.txt (line 10)) (1.14.0)
+Collecting filelock>=3.0.0
+  Using cached filelock-3.0.12-py3-none-any.whl (7.6 kB)
+Collecting pycodestyle<2.8.0,>=2.7.0
+  Using cached pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pyflakes<2.4.0,>=2.3.0
+  Using cached pyflakes-2.3.1-py2.py3-none-any.whl (68 kB)
+Collecting Jinja2>=2.10.1
+  Using cached Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+Collecting click>=5.1
+  Using cached click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Werkzeug>=0.15
+  Using cached Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting itsdangerous>=0.24
+  Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting pathlib2<3.0,>=2.3
+  Using cached pathlib2-2.3.5-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: urllib3>=1.24.1 in ./.tox/py37/lib/python3.7/site-packages (from dulwich>=0.20.21->dvc->-r requirements.txt (line 5)) (1.25.8)
+Requirement already satisfied: certifi in ./.tox/py37/lib/python3.7/site-packages (from dulwich>=0.20.21->dvc->-r requirements.txt (line 5)) (2019.11.28)
+Collecting gitdb<5,>=4.0.1
+  Using cached gitdb-4.0.7-py3-none-any.whl (63 kB)
+Processing /home/bahar/.cache/pip/wheels/0a/64/26/72c699031a5a2fc6d543a046321af5a0ce74292e8f94aa7c39/atpublic-2.1.3-py3-none-any.whl
+Collecting decorator
+  Using cached decorator-5.0.5-py3-none-any.whl (8.8 kB)
+Collecting cffi>=1.4.0
+  Using cached cffi-1.14.5-cp37-cp37m-manylinux1_x86_64.whl (402 kB)
+Collecting cached-property
+  Using cached cached_property-1.5.2-py2.py3-none-any.whl (7.6 kB)
+Collecting pygments<3.0.0,>=2.6.0
+  Using cached Pygments-2.8.1-py3-none-any.whl (983 kB)
+Collecting commonmark<0.10.0,>=0.9.0
+  Using cached commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+Processing /home/bahar/.cache/pip/wheels/56/b0/fe/4410d17b32f1f0c3cf54cdfb2bc04d7b4b8f4ae377e2229ba0/future-0.18.2-py3-none-any.whl
+Collecting ruamel.yaml.clib>=0.1.2; platform_python_implementation == "CPython" and python_version < "3.10"
+  Using cached ruamel.yaml.clib-0.2.2-cp37-cp37m-manylinux1_x86_64.whl (547 kB)
+Processing /home/bahar/.cache/pip/wheels/4f/6b/a5/84880e9435707659c6b96d3aadeb9a87a41f61ec9ede469f41/ftfy-5.9-py3-none-any.whl
+Collecting xmltodict
+  Using cached xmltodict-0.12.0-py2.py3-none-any.whl (9.2 kB)
+Processing /home/bahar/.cache/pip/wheels/48/1b/6f/5c1cfab22eacbe0095fc619786da6571b55253653c71324b5c/python_slugify-4.0.1-py2.py3-none-any.whl
+Collecting phonenumbers
+  Using cached phonenumbers-8.12.20-py2.py3-none-any.whl (2.6 MB)
+Processing /home/bahar/.cache/pip/wheels/45/21/5b/4d3f0954de0c35b9f949d5f620d34186c5beba0170887ed9d8/mailchecker-4.0.6-py3-none-any.whl
+Collecting python-fsutil
+  Using cached python_fsutil-0.4.0-py3-none-any.whl (11 kB)
+Collecting scipy>=0.19.1
+  Using cached scipy-1.6.2-cp37-cp37m-manylinux1_x86_64.whl (27.4 MB)
+Collecting threadpoolctl>=2.0.0
+  Using cached threadpoolctl-2.1.0-py3-none-any.whl (12 kB)
+Collecting joblib>=0.11
+  Using cached joblib-1.0.1-py3-none-any.whl (303 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.4.1-py3-none-any.whl (5.2 kB)
+Collecting distlib<1,>=0.3.1
+  Using cached distlib-0.3.1-py2.py3-none-any.whl (335 kB)
+Collecting MarkupSafe>=0.23
+  Using cached MarkupSafe-1.1.1-cp37-cp37m-manylinux2010_x86_64.whl (33 kB)
+Collecting smmap<5,>=3.0.1
+  Using cached smmap-4.0.0-py2.py3-none-any.whl (24 kB)
+Collecting pycparser
+  Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
+Collecting wcwidth
+  Using cached wcwidth-0.2.5-py2.py3-none-any.whl (30 kB)
+Collecting text-unidecode>=1.3
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+ERROR: networkx 2.5.1 has requirement decorator<5,>=4.3, but you'll have decorator 5.0.5 which is incompatible.
+Installing collected packages: pathlib2, flatten-dict, dulwich, pathspec, funcy, diskcache, psutil, typing-extensions, zipp, importlib-metadata, fsspec, smmap, gitdb, gitpython, pyparsing, voluptuous, tqdm, pygtrie, atpublic, flufl.lock, ply, decorator, jsonpath-ng, networkx, configobj, toml, pycparser, cffi, cached-property, pygit2, pydot, pyasn1, dpath, zc.lockfile, pygments, commonmark, rich, nanotime, shortuuid, future, grandalf, shtab, ruamel.yaml.clib, ruamel.yaml, tabulate, dictdiffer, wcwidth, ftfy, xmltodict, text-unidecode, python-slugify, phonenumbers, mailchecker, python-dateutil, pyyaml, python-fsutil, python-benedict, dvc, numpy, scipy, threadpoolctl, joblib, scikit-learn, sklearn, pytz, pandas, attrs, py, pluggy, iniconfig, pytest, filelock, distlib, virtualenv, tox, pycodestyle, mccabe, pyflakes, flake8, MarkupSafe, Jinja2, click, Werkzeug, itsdangerous, flask, gunicorn, src
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 2.4.6
+    Uninstalling pyparsing-2.4.6:
+      Successfully uninstalled pyparsing-2.4.6
+  Attempting uninstall: distlib
+    Found existing installation: distlib 0.3.0
+    Uninstalling distlib-0.3.0:
+      Successfully uninstalled distlib-0.3.0
+  Attempting uninstall: src
+    Found existing installation: src 0.0.1
+    Not uninstalling src at /home/bahar/Desktop/mlops/demo/new/simple_app, outside environment /home/bahar/Desktop/mlops/demo/new/simple_app/.tox/py37
+    Can't uninstall 'src'. No files were found to uninstall.
+  Running setup.py develop for src
+Successfully installed Jinja2-2.11.3 MarkupSafe-1.1.1 Werkzeug-1.0.1 atpublic-2.1.3 attrs-20.3.0 cached-property-1.5.2 cffi-1.14.5 click-7.1.2 commonmark-0.9.1 configobj-5.0.6 decorator-5.0.5 dictdiffer-0.8.1 diskcache-5.2.1 distlib-0.3.1 dpath-2.0.1 dulwich-0.20.21 dvc-2.0.17 filelock-3.0.12 flake8-3.9.0 flask-1.1.2 flatten-dict-0.3.0 flufl.lock-3.2 fsspec-0.9.0 ftfy-5.9 funcy-1.15 future-0.18.2 gitdb-4.0.7 gitpython-3.1.14 grandalf-0.6 gunicorn-20.1.0 importlib-metadata-3.10.0 iniconfig-1.1.1 itsdangerous-1.1.0 joblib-1.0.1 jsonpath-ng-1.5.2 mailchecker-4.0.6 mccabe-0.6.1 nanotime-0.5.2 networkx-2.5.1 numpy-1.20.2 pandas-1.2.3 pathlib2-2.3.5 pathspec-0.8.1 phonenumbers-8.12.20 pluggy-0.13.1 ply-3.11 psutil-5.8.0 py-1.10.0 pyasn1-0.4.8 pycodestyle-2.7.0 pycparser-2.20 pydot-1.4.2 pyflakes-2.3.1 pygit2-1.5.0 pygments-2.8.1 pygtrie-2.3.2 pyparsing-2.4.7 pytest-6.2.3 python-benedict-0.23.2 python-dateutil-2.8.1 python-fsutil-0.4.0 python-slugify-4.0.1 pytz-2021.1 pyyaml-5.4.1 rich-10.1.0 ruamel.yaml-0.17.2 ruamel.yaml.clib-0.2.2 scikit-learn-0.24.1 scipy-1.6.2 shortuuid-1.0.1 shtab-1.3.5 sklearn-0.0 smmap-4.0.0 src tabulate-0.8.9 text-unidecode-1.3 threadpoolctl-2.1.0 toml-0.10.2 tox-3.23.0 tqdm-4.60.0 typing-extensions-3.7.4.3 virtualenv-20.4.3 voluptuous-0.12.1 wcwidth-0.2.5 xmltodict-0.12.0 zc.lockfile-2.0 zipp-3.4.1
