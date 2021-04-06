@@ -32,7 +32,7 @@ git branch -M main
 git push -u origin main
 
 write content of params.yaml 
-git add . && git commit -m "yaml file"
+git add . && git commit -m "yaml file" && git push origin main
 
 touch src/get_data.py
 
@@ -40,12 +40,13 @@ write content get_data.py
 
 python src/get_data.py
 
-git add . && git commit -m "get data"
+git add . && git commit -m "get data" && git push origin main
 
 touch src/load_data.py
 write content load_data.py
 python src/load_data.py 
 git add . && git commit -m "load data"
 
-write content dvc.yaml 
+write content dvc.yaml "load_data"
 dvc repro
+git add . && git commit -m "first stage load_data" && git push origin main
