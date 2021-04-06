@@ -50,3 +50,27 @@ git add . && git commit -m "load data"
 write content dvc.yaml "load_data"
 dvc repro
 git add . && git commit -m "first stage load_data" && git push origin main
+
+
+touch src/split_data.py
+write content split_data.py
+python src/split_data.py 
+git add . && git commit -m "split data" && git push origin main
+
+write content dvc.yaml "split_data"
+dvc repro
+git add . && git commit -m "second stage split_data" && git push origin main
+
+
+
+touch src/train_and_evaluate.py
+write content train_and_evaluate.py
+mkdir report
+touch report/scores.json
+touch report/params.json
+python src/train_and_evaluate.py 
+git add . && git commit -m "train and evaluate" && git push origin main
+
+write content dvc.yaml "train_and_evaluate.py"
+dvc repro
+git add . && git commit -m "third stage train_and_evaluate.py" && git push origin main
